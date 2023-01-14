@@ -120,3 +120,6 @@ fi
 
 empty_command_completion(){ :; }
 complete -E -F empty_command_completion
+
+# for enable symlink in git bash terminal
+export MSYS=winsymlinks:nativestrict
